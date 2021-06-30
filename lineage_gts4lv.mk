@@ -18,11 +18,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from gts4lv device
-$(call inherit-product, device/samsung/gts4lv/device.mk)
+# Inherit Snapp modifications
+$(call inherit-product, device/snappautomotive/common/additions.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Inherit the car stuff
+$(call inherit-product, device/samsung/gts4lv/car.mk)
+
+# Inherit from gts4lv device
+$(call inherit-product, device/samsung/gts4lv/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts4lv
