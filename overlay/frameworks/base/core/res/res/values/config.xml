@@ -31,6 +31,9 @@
   <!-- No hardware nav keys -->
   <bool name="config_showNavigationBar">true</bool>
 
+  <!-- Force to landscape -->
+  <bool name="config_forceDefaultOrientation">true</bool>
+
 
     <!-- Is the device capable of hot swapping an ICC Card -->
     <bool name="config_hotswapCapable">true</bool>
