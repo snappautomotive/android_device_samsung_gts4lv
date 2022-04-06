@@ -1,6 +1,7 @@
 # RIL
 ro.carrier=unknown
 ro.radio.noril=no
+ro.telephony.default_network=9
 ro.vendor.epdg.support=true
 ro.vendor.multisim.simslotcount=1
 ro.vendor.use_data_netmgrd=false
