@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Don't try and run the set-up wizard -->
+    <bool name="def_device_provisioned">true</bool>
+    <bool name="def_user_setup_complete">true</bool>
+
+    <!-- Landscape rotation -->
+    <bool name="def_accelerometer_rotation">false</bool>
+    <integer name="def_user_rotation">1</integer>
+</resources>

@@ -91,4 +91,7 @@
         <item>250</item>
     </integer-array>
 
+    <!-- Force to landscape -->
+    <bool name="config_forceDefaultOrientation">true</bool>
+
 </resources>
