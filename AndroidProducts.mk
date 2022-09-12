@@ -14,9 +14,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts4lv.mk
+    $(LOCAL_DIR)/lineage_gts4lv.mk \
+    $(LOCAL_DIR)/lineage_car_gts4lv.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_gts4lv-user \
     lineage_gts4lv-userdebug \
-    lineage_gts4lv-eng
+    lineage_gts4lv-eng \
+    lineage_car_gts4lv-user \
+    lineage_car_gts4lv-userdebug \
+    lineage_car_gts4lv-eng
